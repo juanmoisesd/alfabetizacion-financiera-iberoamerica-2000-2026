@@ -1,13 +1,2 @@
-from setuptools import setup, find_packages
-setup(
-    name="alfabetizacion-financiera-iberoamerica-2000-2026",
-    version="1.0.0",
-    description="Base de datos de alfabetización financiera en Iberoamérica (20 países, 2000-2026): indicadores banca",
-    author="de la Serna, Juan Moisés",
-    url="https://github.com/juanmoisesd/alfabetizacion-financiera-iberoamerica-2000-2026",
-    packages=find_packages(),
-    install_requires=["pandas>=1.3.0","requests>=2.26.0"],
-    python_requires=">=3.7",
-    classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],
-    keywords="zenodo, open-data",
-)
+from setuptools import setup,find_packages
+setup(name="alfabetizacion-financiera-iberoamerica-2000-2026",version="1.0.0",description="Base de datos de alfabetización financiera en Iberoamérica (20 países, 2000-2026): indicadores banca",author="de la Serna, Juan Moisés",url="https://github.com/juanmoisesd/alfabetizacion-financiera-iberoamerica-2000-2026",packages=find_packages(),install_requires=["pandas>=1.3.0","requests>=2.26.0"],python_requires=">=3.7",classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],keywords="zenodo, open-data, dataset")
